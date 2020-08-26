@@ -1,0 +1,18 @@
+<div class="card container my-5">
+    <div class="card-body">
+        <h3 class="card-title text-center" >Iniciar Sesion</h3>
+        <div class="card-text">
+            <form>
+                <div class="form-group">
+                    <label class="h5" >Username:</label>
+                    <input class="form-control" name="username" type="text"  [(ngModel)]="username">
+                </div>
+                <div class="form-group">
+                    <label class="h5">Password:</label>
+                    <input class="form-control" name="password" type="password"  [(ngModel)]="password">
+                </div>
+                    <button type="submit" class="btn btn-block btn-lg btn-success"  (click)="Login()" >Login</button>
+            </form>
+        </div>
+    </div>
+</div>

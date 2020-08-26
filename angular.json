@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Guards"
+    }
+  },
+  "defaultProject": "Guards",
+  "cli": {
+    "analytics": "4e683e1d-fd3f-4807-9dd0-8949b0a96590"
+  }
 }
